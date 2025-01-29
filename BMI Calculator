@@ -2,7 +2,9 @@ name = input("Enter your name: ")
 weight = int(input("Enter your weight in kg:"))
 height = int(input("Enter your height in cm:"))
 BMI = (weight * 10000) / (height * height)
+
 print(BMI)
+
 if BMI > 0:
     if(BMI < 18.5):
         print(name + ", you are underweight.")
